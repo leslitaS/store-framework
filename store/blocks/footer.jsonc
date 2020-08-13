@@ -1,4 +1,12 @@
 {
+    "footer": {
+        "blocks": ["footer-layout.desktop"]
+      },
+      "footer-layout.desktop": {
+        "children": [
+          "flex-layout.row#footer-1-desktop",
+          "flex-layout.row"        ]
+      },
     "flex-layout.row#footer-1-desktop": {
         "children": [
           "flex-layout.col#footer-left-desktop",
@@ -30,6 +38,7 @@
         "props": {
           "socialNetworks": [
             { "url": "https://facebook.com/foo", "name": "Facebook" },
+            { "url": "https://instagram.com/foo", "name": "Instagram" }
             { "url": "https://twitter.com/foo", "name": "Twitter" }
           ]
         }
