@@ -7,7 +7,7 @@
       ],
     
       "props":{
-        "orientation": "horizontal"
+        "orientation": "vertical"
       }
     },
 
