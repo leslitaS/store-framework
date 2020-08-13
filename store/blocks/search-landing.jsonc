@@ -1,14 +1,13 @@
 {
     "store.custom#landing": {
         "blocks": [
-          "image#landing",
-          "search-result-layout.customQuery"
-        ]
-      },
+            "image#landing",
+            "search-result-layout.customQuery"
+          ]
+    },
     "image#landing":{
-        "props": {
-            
-            "scr": "https://image.freepik.com/foto-gratis/compra-linea-tienda-online-sitio-web-o-aplicacion-movil-fondo-renderizado-3d-tienda-marketing-digital_41910-451.jpg",
+        "props": {            
+            "src": "https://image.freepik.com/foto-gratis/compra-linea-tienda-online-sitio-web-o-aplicacion-movil-fondo-renderizado-3d-tienda-marketing-digital_41910-451.jpg",
             "minWidth": "100%"
             }
     },
