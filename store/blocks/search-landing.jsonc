@@ -1,24 +1,26 @@
 {
     "store.custom#landing": {
         "blocks": [
-          "image#landingbanner",
+          "image#landing",
           "search-result-layout.customQuery"
         ]
       },
-    "image#landingbanner":{
-    "props": {
-        
-        "scr": "https://i.pinimg.com/564x/fd/f0/e6/fdf0e68d1d57584732bcb9bf6a5e9055.jpg",
-        "minWidth": "100%"
-        }
+    "image#landing":{
+        "props": {
+            
+            "scr": "https://image.freepik.com/foto-gratis/compra-linea-tienda-online-sitio-web-o-aplicacion-movil-fondo-renderizado-3d-tienda-marketing-digital_41910-451.jpg",
+            "minWidth": "100%"
+            }
     },
     "search-result-layout.customQuery":{
-        "props": {        
-            "orderByField":"OrderByNameDESC",
-            "hideUnavailableItems": true,
-            "maxItemsPerPage": 8,
-            "queryField": "Blue Top Retro Camera",
-            "mapField": "ft"
+        "props": {  
+            "querySchema": {      
+                "orderByField":"OrderByNameDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Blue Top Retro Camera",
+                "mapField": "ft"
             }
+        }
     }
 }
